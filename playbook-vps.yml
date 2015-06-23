@@ -1,0 +1,4 @@
+- hosts: web
+      tasks:
+        - name: Hello server
+          shell: ansible-playbook playbook-vps.yml
